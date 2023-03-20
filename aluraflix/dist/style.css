@@ -1,0 +1,65 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://konachan.com/sample/7584f0adc2bfd96fd5017c9ab54f44d9/Konachan.com%20-%20159717%20sample.jpg");
+  background-color: #000000;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 6px;
+  padding: 5px 8px;
+  border-radius: 10px;
+  background: white;
+}
+
+img {
+  max-height: 280px;
+  border-radius: 15px;
+}
+
+img:hover {
+  transition: transform 0.5s;
+  transform: scale(1.2);
+}
