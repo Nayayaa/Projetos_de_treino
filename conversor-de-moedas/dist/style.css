@@ -1,0 +1,68 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://kinneygroup.com/wp-content/uploads/2020/09/accounting-watts-scaled.jpg");
+  background-color: #000000;
+  background-size: 240vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: "Franklin Gothic", monospace;
+  font-size: 50px;
+}
+
+p {
+  font-family: "Franklin Gothic", monospace;
+  font-size: 20px;
+}
+
+.container {
+  text-align: center;
+  padding: 120px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #2c6600;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #2c6600;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input {
+  margin: 15px;
+  padding: 6px;
+  border-radius: 20px;
+}
+
+label {
+  color: #0a275c;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: white;
+}
+
+h2 {
+  color: #2c6600;
+  font-size: 30px;
+}
